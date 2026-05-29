@@ -38,6 +38,7 @@ int main(void)
 	OLED_Clear();
 	OLED_ShowString(1, 1, "HX711 Scale");
 	OLED_ShowString(2, 1, "Weight:");
+	OLED_ShowString(3, 1, "Keep pan empty");
 	
 	while (1)
 	{
